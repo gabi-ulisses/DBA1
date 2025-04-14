@@ -22,7 +22,7 @@ FROM PROJETO;
 -- 4. Listar nome, data de nascimento e salário dos funcionários que não trabalham no departamento 4.
 SELECT NOME, DATANASC, SALARIO 
 FROM FUNCIONARIO 
-WHERE DNUMERO != 4;
+WHERE DNUMERO <> 4;
 
 -- 5. Listar nome e data de nascimento das funcionárias que ganham menos de R$5.000,00.
 SELECT NOME, DATANASC 
