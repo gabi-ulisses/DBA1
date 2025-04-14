@@ -1,5 +1,5 @@
 /*
-* Create by: gabrielle.ulisses@aluno.ifsp.edu.br (gabi-ulisses) in 14-03-2025 19:23
+* Create by: gabrielle.ulisses@aluno.ifsp.edu.br (gabi-ulisses) in 12-03-2025 15:23
 */
 
 USE EMPRESA;
