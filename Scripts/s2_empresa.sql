@@ -1,3 +1,9 @@
+/*
+* Create by: gabrielle.ulisses@aluno.ifsp.edu.br (gabi-ulisses) in 14-03-2025 19:23
+*/
+
+USE EMPRESA;
+
 -- 1. Listar o nome, sexo, data de nascimento e endereço completo dos funcionários.
 SELECT NOME, SEXO, DATANASC, 
        CONCAT(RUA, ', ', NUMERO, ' ', IFNULL(COMPL, ''), ', ', BAIRRO, ', ', CIDADE, '-', ESTADO, ', CEP: ', CEP) AS ENDERECO_COMPLETO
@@ -10,13 +16,13 @@ WHERE SEXO = 'F'
 ORDER BY SALARIO DESC;
 
 -- 3. Listar os diferentes locais de projetos cadastrados.
-SELECT DISTINCT PROJLOCAL 
+SELECT DISTINCT PROJLOCAL AS 'LOCAIS' 
 FROM PROJETO;
 
 -- 4. Listar nome, data de nascimento e salário dos funcionários que não trabalham no departamento 4.
 SELECT NOME, DATANASC, SALARIO 
 FROM FUNCIONARIO 
-WHERE DNUMERO <> 4;
+WHERE DNUMERO != 4;
 
 -- 5. Listar nome e data de nascimento das funcionárias que ganham menos de R$5.000,00.
 SELECT NOME, DATANASC 
