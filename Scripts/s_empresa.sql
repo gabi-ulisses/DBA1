@@ -1,3 +1,7 @@
+/*
+* Create by: gabrielle.ulisses@aluno.ifsp.edu.br (gabi-ulisses) in 14-03-2025 19:23
+*/
+
 USE EMPRESA;
 
 -- 3)
